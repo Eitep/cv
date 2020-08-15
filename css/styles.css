@@ -18,8 +18,8 @@ h1 {
     display: inline;
     border-top-style: hidden;
     background: #3190B5;
-    background: -webkit-linear-gradient(bottom, #3190B5, #B1CBC8);
-    background: -moz-linear-gradient(bottom, #3190B5, #B1CBC8);
+    background: linear-gradient(bottom, #3190B5, #B1CBC8);
+    background: linear-gradient(bottom, #3190B5, #B1CBC8);
     background: linear-gradient(to top, #3190B5, #B1CBC8);
 
 }
