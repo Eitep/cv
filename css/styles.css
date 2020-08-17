@@ -7,10 +7,14 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 footer {
     text-align: center;
+    background-color: #e0ece4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -18,32 +22,40 @@ h2 {
     font-family: "Cinzel", serif;
     color: #fff2d9;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    display: inline-block;
 }
 
 hr {
-    display: inline;
-    margin: auto;
-    border-style: dotted;
-    border-width: 30px;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    background-color:  #D9E1E3;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border: dotted rgba(45, 45, 45, 0.4);
+    border-width: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 5%;
 }
 
-img {
-    width: 100%;
-    margin-top: 0;
+li {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .about-me {
-    border-style: solid;
-    border-color: #c4d1d4;
-    border-top-style: hidden;
-    border-left-style: hidden;
-    border-right-style: hidden;
-    box-shadow: 3px;
+    text-align: center;
+}
+
+.about-me-text {
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+}
+
+.main-background {
+    width: 100%;
+    margin-top: 0;
 }
 
 .name {
@@ -56,10 +68,22 @@ img {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
+.projects {
+    text-align: center;
+}
+
 .subtitle {
     position: absolute;
     font-size: 1.1875rem;
-    bottom: 530px;
-    left: 1245px;
+    bottom: 490px;
+    left: 1210px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+#computer-image {
+    position: relative;
+    left: 400px;
+    top: 50px;
+    border-style: solid rgba(0, 0, 0, 0.3);
+
 }
