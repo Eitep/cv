@@ -1,78 +1,65 @@
+blockquote {
+    border-left: none;
+}
 body {
-    background-color: #b0cac7;
+    background-color: #D9E1E3;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+    padding: 100px;
+    font-family: "Cinzel", serif;
+    color: #fff2d9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 2.5rem;
 }
 
 hr {
-    background-color: #b0cac7;
-    width: 4%;
-    height: 5px;
-    border-color: grey;
-    border-width: 6px;
-    border-style: none;
-    border-top-style: dotted;
-}
-
-h1 {
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.1);
     display: inline;
+    margin: auto;
+    border-style: dotted;
+    border-width: 30px;
     border-top-style: hidden;
-    background: #3190B5;
-    background: linear-gradient(bottom, #3190B5, #B1CBC8);
-    background: linear-gradient(bottom, #3190B5, #B1CBC8);
-    background: linear-gradient(to top, #3190B5, #B1CBC8);
-
+    border-right-style: hidden;
+    border-left-style: hidden;
+    background-color:  #D9E1E3;
 }
+
 img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.about-me {
     border-style: solid;
-    border-radius: 160px; 
-    border-color: rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
-    -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
-    box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+    border-color: #c4d1d4;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    box-shadow: 3px;
 }
 
-
-h3,
-th {
-    color: #005086;
-}
-
-p {
-    text-align: center;
+.name {
     position: absolute;
-    top: 160px;
-    left: 610px;
+    bottom: 450px;
+    left: 1000px;
+    font-size: 3.75rem;
+    font-family: "Cinzel", serif;
+    color: #fff2d9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
-/*----Id Selecters----*/
-
-#name {
-    font-family: "Yellowtail";
-    font-size: 45px;
-}
-
-#main {
-    margin: auto;
-    width: 50%
-}
-
-#education {
-    margin: auto;
-    width: 75%;
-    padding: 100px;
-}
-
-#work {
-    margin-left: auto;
-    width: 25%;
-    padding: 100px;
-    display: block;
-}
-
-#skills {
-
-    margin: auto;
-    width: 75%;
-    padding: 100px;
+.subtitle {
+    position: absolute;
+    font-size: 1.1875rem;
+    bottom: 470px;
+    left: 1145px;
+    color: rgba(0, 0, 0, 0.6);
 }
