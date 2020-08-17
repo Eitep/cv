@@ -48,8 +48,8 @@ img {
 
 .name {
     position: absolute;
-    bottom: 450px;
-    left: 1000px;
+    bottom: 510px;
+    left: 1100px;
     font-size: 3.75rem;
     font-family: "Cinzel", serif;
     color: #fff2d9;
@@ -59,7 +59,7 @@ img {
 .subtitle {
     position: absolute;
     font-size: 1.1875rem;
-    bottom: 470px;
-    left: 1145px;
+    bottom: 530px;
+    left: 1245px;
     color: rgba(0, 0, 0, 0.6);
 }
